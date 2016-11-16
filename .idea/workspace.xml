@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1cfaebb-0edb-4d04-8663-d966f46d66b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/hello_world_spec.js" afterPath="$PROJECT_DIR$/spec/hello_world_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/hello_worlds_spec.js" afterPath="$PROJECT_DIR$/spec/hello_worlds_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/sample_TC_spec.js" afterPath="$PROJECT_DIR$/spec/sample_TC_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="unit-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -88,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -114,13 +111,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/app/authKeys.js" />
         <option value="$PROJECT_DIR$/app/testfile.js" />
         <option value="$PROJECT_DIR$/spec/sample_TC_spec.js" />
         <option value="$PROJECT_DIR$/spec/hello_worlds_spec.js" />
         <option value="$PROJECT_DIR$/spec/hello_world_spec.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -356,7 +353,7 @@
       <workItem from="1477958516818" duration="561000" />
       <workItem from="1478052593743" duration="218000" />
       <workItem from="1478644228996" duration="171000" />
-      <workItem from="1479079475013" duration="3064000" />
+      <workItem from="1479079475013" duration="3168000" />
     </task>
     <task id="LOCAL-00001" summary="made few changes in Spec folder">
       <created>1471317277861</created>
@@ -369,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34509000" />
+    <option name="totallyTimeSpent" value="34613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -786,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/sample_TC_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -840,6 +829,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
           <folding />
         </state>
       </provider>
