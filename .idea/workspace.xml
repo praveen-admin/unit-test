@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1cfaebb-0edb-4d04-8663-d966f46d66b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/hello_world_spec.js" afterPath="$PROJECT_DIR$/spec/hello_world_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/sample_TC_spec.js" afterPath="$PROJECT_DIR$/spec/sample_TC_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="unit-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,28 +27,28 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="150">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <file leaf-file-name="hello_world_spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/hello_world_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="30">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="195">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -57,21 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello_world_spec.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/hello_world_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hello_worlds_spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/hello_worlds_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="0">
+              <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -80,8 +69,8 @@
       <file leaf-file-name="sample_TC_spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/sample_TC_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -112,12 +101,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/spec/hello_worlds_spec.js" />
         <option value="$PROJECT_DIR$/spec/sample_TC_spec.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/app/authKeys.js" />
+        <option value="$PROJECT_DIR$/app/testfile.js" />
         <option value="$PROJECT_DIR$/spec/hello_world_spec.js" />
+        <option value="$PROJECT_DIR$/spec/hello_worlds_spec.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -156,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,12 +179,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jasmine-standalone-2.4.1" />
     <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -210,7 +215,16 @@
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration default="false" name="testfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="testfile.js" working-dir="$PROJECT_DIR$/app">
+      <method />
+    </configuration>
+    <configuration default="false" name="authKeys.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="authKeys.js" working-dir="$PROJECT_DIR$/app">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -264,6 +278,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.testfile.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.authKeys.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.index.js" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.testfile.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.authKeys.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -289,7 +315,36 @@
       <workItem from="1471334940748" duration="491000" />
       <workItem from="1471416850723" duration="628000" />
       <workItem from="1471428128152" duration="1272000" />
-      <workItem from="1471431860516" duration="564000" />
+      <workItem from="1471431860516" duration="1132000" />
+      <workItem from="1471503299185" duration="1249000" />
+      <workItem from="1471505381648" duration="2260000" />
+      <workItem from="1476147848546" duration="1085000" />
+      <workItem from="1476151595954" duration="535000" />
+      <workItem from="1476166770812" duration="512000" />
+      <workItem from="1476609041198" duration="322000" />
+      <workItem from="1476751926032" duration="353000" />
+      <workItem from="1477198217699" duration="649000" />
+      <workItem from="1477200158417" duration="1190000" />
+      <workItem from="1477203257597" duration="1061000" />
+      <workItem from="1477205226246" duration="586000" />
+      <workItem from="1477216931430" duration="562000" />
+      <workItem from="1477225804364" duration="597000" />
+      <workItem from="1477270665793" duration="125000" />
+      <workItem from="1477272785197" duration="573000" />
+      <workItem from="1477274891670" duration="512000" />
+      <workItem from="1477369981390" duration="392000" />
+      <workItem from="1477372106754" duration="487000" />
+      <workItem from="1477444926903" duration="482000" />
+      <workItem from="1477452254196" duration="370000" />
+      <workItem from="1477454215823" duration="188000" />
+      <workItem from="1477454653048" duration="177000" />
+      <workItem from="1477455364021" duration="596000" />
+      <workItem from="1477611244703" duration="323000" />
+      <workItem from="1477865926173" duration="3057000" />
+      <workItem from="1477958516818" duration="561000" />
+      <workItem from="1478052593743" duration="218000" />
+      <workItem from="1478644228996" duration="171000" />
+      <workItem from="1479079475013" duration="1993000" />
     </task>
     <task id="LOCAL-00001" summary="made few changes in Spec folder">
       <created>1471317277861</created>
@@ -302,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11684000" />
+    <option name="totallyTimeSpent" value="33438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -310,20 +365,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719547" sideWeight="0.34948373" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252841" sideWeight="0.17077045" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.35107228" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.471803" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719547" sideWeight="0.6505163" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252841" sideWeight="0.82922953" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39943343" sideWeight="0.49722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -342,26 +397,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="made few changes in Spec folder" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/hello_worlds_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/sample_TC_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -706,6 +747,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/jasmine-node">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -714,60 +762,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/jasmine-node">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/app/testfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/authKeys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/hello_worlds_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/sample_TC_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/hello_world_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
