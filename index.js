@@ -6,10 +6,10 @@ var app = express();
 var exports = module.exports = {};
 
 app.get('/', function(req, res){
-    res.send('Hello World');
+    res.send('Hello world');
 });
 
-var server = app.listen(3000, function(){
+var server = app.listen(3004, function(){
     console.log('Magic is happening on port 3000');
 });
 

@@ -6,7 +6,7 @@ describe("To check the Store Locator APIs Statuscode", function() {
     describe("By Postcode /", function() {
         it("returns status code 200", function(done) {
             request.get(base_url, function(error, response, body) {
-                expect(response.statusCode).toBe(201);
+                expect(response.statusCode).toBe(200);
                 //console.log("Status Code is "+response.statusCode);
                 //console.log("Response Body is"+body);
                 done();
